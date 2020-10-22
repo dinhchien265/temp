@@ -1,0 +1,67 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+body {
+    padding: 1em;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    color: #b9b9b9;
+    background-color: #e3e3e3;
+}
+.fluid-container {
+    max-width: 50em;
+    padding: 1em 3em 2em 3em;
+    margin-top: auto;
+    margin: 0em auto;
+    background-color: #fff;
+    border-radius: 4.2px;
+    box-shadow: 0px 3px 10px -2px rgba(0, 0, 0, 0.2);
+
+    -webkit-transition: 0.35s ease-in-out;
+    -moz-transition: 0.35s ease-in-out;
+    transition: 0.35s ease-in-out;
+    transition: all 0.35s ease-in-out;
+  }
+  .listfile {
+      max-width: 60em;
+  }
+  h2 {
+    color: #7ed321;
+  }
+  /* select,option {
+    width: 5em;
+    font-size: 1.5em;
+  } */
+  input[type="submit"]{
+    margin-top: 1em;
+    background-color: #7ed321;
+  color: #fff;
+  border-color: #64ac15;
+  border: none;
+  padding: 5px 5px 5px 5px;
+  font-size: 30px;
+  border-radius: 4px;
+  width: 100%;
+  }
+  select,option {
+    text-align: center;
+    font-size: 25px;
+  }
+.success{
+  color: #64ac15;
+}
+.fail{
+  color: #ac1515;
+}
+
+  @media only screen and (max-width: 540px) {
+    .fluid-container {
+      width: 100%;
+    }
+    .listfile {
+      width: 100%;
+    }
+  }
+  
